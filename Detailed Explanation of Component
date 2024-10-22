@@ -1,0 +1,25 @@
+### 1.NetworkTrafficSimulator Class
+
+This class is responsible for generating network traffic. It has the following attributes and methods:
+
+- **Attributes**:
+    
+    - `num_devices`: The number of devices to simulate in the network.
+    - `attack_percentage`: The percentage of traffic that should be simulated as attacks.
+    - `traffic_data`: A list that stores the generated traffic data.
+- **Methods**:
+    
+    - `generate_traffic()`: Generates random traffic data for the specified number of devices and categorizes them as normal or malicious.
+    - `start_simulation()`: Starts the traffic generation process in a loop until stopped.
+    - `stop_simulation()`: Stops the traffic generation.
+### 2. NetworkSecurityVisualizer Class
+
+This class manages the GUI for the application. It includes:
+
+- **Widgets**: Input fields for the number of devices and attack percentage, along with buttons to start/stop simulation and visualize traffic.
+- **Methods**:
+    - `start_simulation()`: Validates user input and starts the traffic simulation.
+    - `stop_simulation()`: Stops the ongoing simulation.
+    - `visualize_traffic()`: Processes the collected traffic data and creates a pie chart for visualization.
+
+
