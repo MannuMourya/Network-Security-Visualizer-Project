@@ -46,6 +46,23 @@ graph TD
     E --> A
 ```
 
+## Project 2: Historical Events Visualization
+
+This project focuses on visualizing historical events from a dataset containing significant events throughout history. Using Python, along with libraries such as `pandas`, `numpy`, and `matplotlib`, this project generates insightful visualizations to better understand trends in historical events.
+
+### Key Features:
+- **Data Loading:** Reads historical event data from a CSV file.
+- **Data Cleaning:** Processes and formats the data for analysis, including handling years and creating century bins.
+- **Visualization:** Creates a bar chart displaying the number of historical events per century, providing a clear visual representation of trends over time.
+
+### How to Run the Project:
+1. Ensure you have the required libraries installed:
+   ```bash
+   pip install pandas numpy matplotlib
+
+
+
+
 ## Conclusion
 
 The Network Security Visualizer project serves as an educational project for understanding numpy, matplotlib, tkinter, network traffic patterns, networking activities with python. It can be extended to incorporate more complex simulations and additional visualization techniques.
